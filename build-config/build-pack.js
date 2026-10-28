@@ -23,6 +23,9 @@ const options = {
     buildResources: './resources',
     output: './build',
   },
+  "toolsets": {
+    "appimage": "latest"
+  },
   files: [
     '!node_modules/**/*',
     'node_modules/font-list',
